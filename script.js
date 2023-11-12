@@ -129,6 +129,23 @@ document
       elem.style.cursor = "normal";
     });
   });
+let timeline = gsap.timeline();
+timeline.from("#nav img", {
+  y: -100,
+  scale: 0,
+  duration: 0.5,
+  stagger: 0.3,
+});
+timeline.from("#main #page1 h1",{
+  x:-1500,
+  duration:1,
+  
+})
+timeline.from("#main #page1 h2,#main #page1 p",{
+  scale:0,
+  duration:1,
+  // opacity:0.5,
+})
 
 gsap.to("#nav", {
   backgroundColor: "#000",
