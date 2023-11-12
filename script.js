@@ -1,7 +1,4 @@
-const scroll = new LocomotiveScroll({
-    el: document.querySelector('#body'),
-    smooth: true
-});
+
 
 const csor = document.querySelector("#cursor");
 const csorB = document.querySelector("#cursor-blur");
