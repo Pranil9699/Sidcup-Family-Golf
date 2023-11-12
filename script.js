@@ -1,3 +1,8 @@
+const scroll = new LocomotiveScroll({
+    el: document.querySelector('[data-scroll-container]'),
+    smooth: true
+});
+
 const csor = document.querySelector("#cursor");
 const csorB = document.querySelector("#cursor-blur");
 const cards = document.querySelectorAll(".card");
